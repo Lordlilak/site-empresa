@@ -1,14 +1,4 @@
-.logo {
-    background: left / cover;
-    display: flex;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    font: bold calc(1em + 2 * (100vw - 120px) / 100);
-    color: #ff0083;
-    text-shadow: #000 2px 2px 0.2rem;
-}
+.header {
 
-header > h1 {
-    margin-bottom: 0;
-}
+    background-color: rgb(0, 109, 128);
+  }
