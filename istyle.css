@@ -1,15 +1,14 @@
-.cai { 
-    width: 337px;
+.logo {
+    background: left / cover;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100);
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
 }
 
-header{ border: 2px solid #E6E6E6;
-    border-bottom: none;
-    margin-left: 2px; 
-    height: 7px; width: 323px;
-}
-main { border-left: 4px solid #E6E6E6;
-    border-right: 10px solid #E6E6E6;
-    border-bottom: 10px solid #E6E6E6;
-    height: 340px; 
-    padding: 5px 0; 
+header > h1 {
+    margin-bottom: 0;
 }
